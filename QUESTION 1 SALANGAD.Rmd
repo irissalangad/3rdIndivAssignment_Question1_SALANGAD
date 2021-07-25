@@ -1,0 +1,158 @@
+---
+title: "Third Individual Assignment"
+author: "Iris Salangad"
+date: "7/25/2021"
+output:
+  prettydoc::html_pretty:
+    theme: lumen
+    highlight: vignette
+---
+
+# Individual Quiz 
+
+------
+
+### <font size="7"> **Question 1** </font>
+
+### <font size="6"> **The life in hours of a battery is known to be approximately normally distributed with standard deviation $\sigma$ = 1.25hours. A random sample of 10 batteries has a mean life of 	$\overline{x}$ = 40.5 hours.** </font>
+
+*****
+
+#### <font size="5"> **A. Is there evidence to support the claim that battery life exceeds 40 hours? Use $\alpha$=0.05**
+ 
+**Given:**
+
+$\sigma$=1.25hours
+
+$\overline{x}$ = 40.5 hours
+
+n = 10
+
+$\alpha$=0.05
+
+Null Hypothesis:$H_0:\mu = 40$
+
+Alternative Hypothesis: $H_1:\mu > 40$ 
+
+**Formula: Z-test formula**
+
+
+$Z = \frac{\overline{x} - \mu} {\frac{\sigma}{\sqrt n}}$
+
+**Solution**
+
+$Z = \frac {40.5 - 40} {\frac{1.25}{\sqrt 10}}$
+
+**Final Answer**
+
+$= 1.264911$
+
+**Conclusion**
+
+The corresponding Z score of $\alpha$=0.05 is 1.645. With this, we can conclude that 
+
+
+</font>
+
+
+*****
+
+#### <font size="5"> **B. What is the P value for the test in part A?**
+
+**Formula**
+
+$P = 1 - \Phi (Z_0)$
+
+**Solution**
+
+$P = 1 - \Phi (1.264)$
+
+$P = 1 - 0.8962$
+
+**Final Answer** 
+
+$P = 0.1385$
+
+**Conclusion**
+
+
+</font> 
+
+
+*****
+
+#### <font size="5"> **C. What is the 	$\beta$-error for the text in part B if the true mean life is 42 hours?**
+
+**Formula**
+
+$\beta = \Phi (Z_a - \frac {\delta \sqrt n} {\sigma})$
+
+**Solution**
+
+$\beta = \Phi (1.64 - \frac {2 \sqrt 10} {1.25})$
+
+$\beta = \Phi (-3.414)$
+
+**Final Answer**
+
+$\beta = 0.00032$
+
+**Conclusion**
+
+
+</font>
+
+*****
+
+#### <font size="5"> **D. What sample size would be required to ensure that 	$\beta$ does not exceed 0.10 if the true mean is 44 hours?**
+
+**Formula**
+
+$n = \frac {(Z_\alpha + Z_\beta)^2 \sigma^2}{\delta}$
+
+**Solution**
+
+$n = \frac {(Z_0.05 + Z_0.10)^2 1.25^2}{(44-40)^2}$
+
+$n = \frac {(1.645 + 1.282)^2 1.25^2}{(4)^2}$
+
+$n = \frac {(2.927)^2 1.25^2}{(4)^2}$
+
+$n = \frac {13.38645}{(4)^2}$
+
+$n = 0.83665$
+
+**Final Answer** 
+
+$n \approx 1$
+
+**Conclusion**
+
+</font>
+
+*****
+
+#### <font size="5"> **E. Explain how you could answer the question in part A by calculating an appropriate confidence bound on battery life.**
+
+**Formula** 
+
+$Confidence Interval = \overline{x} \pm Z_\alpha (\frac {\delta}{\sqrt n})$
+
+**Solution**
+
+$Confidence Interval = 40.5 \pm 1.645 (\frac {1.25}{\sqrt 10})$
+
+$Confidence Interval = 40.5 \pm 1.645 (0.3952847075)$
+
+$Confidence Interval = 40.5 \pm 0.6502433439$
+
+**Final Answer**
+
+$Confidence Interval = 41.15$
+
+**Conclusion**
+
+
+</font>
+
+

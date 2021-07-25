@@ -131,7 +131,7 @@ $n \approx 1$
 
 **Conclusion**
 
-The required sample size to ensure that \beta does not exceed 0.10 is 1
+The required sample size to ensure that $\beta$ does not exceed 0.10 is 1
 
 </font>
 
@@ -157,7 +157,76 @@ $Confidence Interval = 41.15$
 
 **Conclusion**
 
+Based on the confidence interval of 40, we can conclude that we fail to reject the null hypothesis. This is because of the Confidence Interval of 41.15 as this is greater than the value of null mean, which is 40. 
 
 </font>
 
+*****
+*****
+*****
 
+### <font size="7"> **Question 2** </font>
+
+### <font size="6"> **Brand A gasoline was used in 16 similar automobiles under identical conditions. The corresponding sample of 16 values (miles per gallon) had mean 19.6 and standard deviation 0.4. Under the same conditions, high-power brand B gasoline gave a sample of 16 values with mean 20.2 and standard deviation 0.6. Is the mileage of B significantly better than that of A? Assume normality. Test the hypothesis using both P-value and fixed significance level with $\alpha$ = 0.05 approaches. ** </font>
+
+*****
+<font size="5"> 
+
+#### **Identify the Givent**
+
+**Brand A Given**
+
+$n = 16$
+
+$\overline{x} = 19.6$ 
+
+$\delta = 0.4$
+
+**Brand B Given**
+
+$n = 16$
+
+$\overline{x} = 20.2$ 
+
+$\delta = 0.6$
+
+*****
+
+#### **Solutions**
+
+**Parameter of Interest**
+
+The Mileages of Brand A and B
+
+**Null and Alternative Hypothesis**
+
+$H_0 : \mu_A = \mu_B$
+
+$H_A : \mu_A < \mu_B$
+
+*****
+
+**Formula: T-Test**
+
+$\displaystyle t_0 = \frac {\overline{x}_B - \overline{x}_A}{\sqrt (\frac{\delta^2_1 }{n_1}) + (\frac{\delta^2_2}{n_2})}$
+
+$\displaystyle t_0 = \frac {19.6 - 20.2} {{\sqrt (\frac{0.4^2}{16}) + (\frac{0.6^2}{16})}}$
+
+$\displaystyle t_0 = \frac {-0.6}{0.1802775638}$
+
+$\displaystyle t_0 = -3.328$
+
+**P-Value**
+
+$P = \phi (-3.328)$
+
+$P = 0.000434$
+
+#### **Conclusion**
+
+Since our $\alpha$ is 0.05 and our P-value is 0.000434 (which is lesser), we can conclude that the mileage of Brand B is more preferable than Brand A. 
+
+</font>
+
+*****
+*****

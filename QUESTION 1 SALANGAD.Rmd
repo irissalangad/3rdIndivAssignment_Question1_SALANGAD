@@ -49,7 +49,8 @@ $= 1.264911$
 
 **Conclusion**
 
-The corresponding Z score of $\alpha$=0.05 is 1.645. With this, we can conclude that 
+Based on the answer above, we can conclude that the evidence is not enough to support the
+claim that the mean battery life exceeds 40 hours based on the P-value of part B.
 
 
 </font>
@@ -75,6 +76,7 @@ $P = 0.1385$
 
 **Conclusion**
 
+The P-Value is 0.1385
 
 </font> 
 
@@ -99,6 +101,7 @@ $\beta = 0.00032$
 
 **Conclusion**
 
+The value of $\beta$ is 0.00032
 
 </font>
 
@@ -127,6 +130,8 @@ $n = 0.83665$
 $n \approx 1$
 
 **Conclusion**
+
+The required sample size to ensure that \beta does not exceed 0.10 is 1
 
 </font>
 
